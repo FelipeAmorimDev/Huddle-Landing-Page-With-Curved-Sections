@@ -164,7 +164,7 @@ input[type="submit"] {
 
 .flow-conversation {
   max-width: 1200px;
-  margin: 103.84px auto 111px;
+  margin: 128.84px auto 111px;
   padding: 0px 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -249,6 +249,7 @@ input[type="submit"] {
 
 .footer-container-bg {
   background-color: var(--cor-0);
+  padding: 0px 16px;
 }
 
 .footer-container {
@@ -299,6 +300,7 @@ input[type="submit"] {
 .footer-container__social-item i{
   transition: .3s;
 }
+
 .footer-container__social-item i:hover{
   color: #00c7fa;
 }
@@ -311,6 +313,7 @@ input[type="submit"] {
 .footer-container__newsletter form {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .footer-container__newsletter form input[type="email"] {

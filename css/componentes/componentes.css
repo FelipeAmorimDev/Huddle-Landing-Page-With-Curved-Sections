@@ -19,11 +19,11 @@
   padding: 12px 41px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: var(--cor-p1);
 }
 
 
-.botao:hover,.botao__footer{
+.botao:hover,.botao__footer:hover{
   background-color: var(--cor-p2);
 }
 
