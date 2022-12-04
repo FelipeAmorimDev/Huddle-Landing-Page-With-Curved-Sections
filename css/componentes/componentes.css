@@ -27,7 +27,7 @@
   background-color: var(--cor-p2);
 }
 
-@media (max-width:400px){
+@media (max-width:500px){
   .botao{
     padding: 25px 50px;
   }
