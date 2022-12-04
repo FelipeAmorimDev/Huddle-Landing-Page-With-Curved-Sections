@@ -48,6 +48,14 @@
   font-weight: 600;
 }
 
+.font-2-s-e{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75rem;
+  line-height: 2;
+  font-weight: 600;
+}
+
+
 .font-2-xl-b,.font-2-x-b,.font-2-l-b{
   font-weight: 700;
 }

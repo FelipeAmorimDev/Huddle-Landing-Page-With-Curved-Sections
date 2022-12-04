@@ -367,7 +367,15 @@ input[type="submit"] {
 .footer-container__newsletter form {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 20px;
+}
+
+.input-content__error-msg{
+  margin-top: 4px;
+  display: inline-block;
+  visibility: hidden;
+
 }
 
 .footer-container__newsletter form input[type="email"] {
@@ -375,6 +383,8 @@ input[type="submit"] {
   border-radius: 6px;
   border: none;
   min-width: 320px;
+  min-height: 48px;
+  box-sizing: border-box;
 }
 
 @media (max-width:860px) {
