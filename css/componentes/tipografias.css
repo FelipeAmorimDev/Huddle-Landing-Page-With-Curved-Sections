@@ -1,0 +1,85 @@
+.font-1-xxl{
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.font-1-xl{
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: 700;
+
+}
+
+.font-2-xxl{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 6rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.font-2-xl,.font-2-xl-b{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.font-2-x,.font-2-x-b{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.font-2-l,.font-2-l-b{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.font-2-s{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.857rem;
+  line-height: 1.714;
+  font-weight: 600;
+}
+
+.font-2-xl-b,.font-2-x-b,.font-2-l-b{
+  font-weight: 700;
+}
+@media (max-width:1050px){
+  .font-1-xl{
+   font-size: 2rem;
+  }
+  .font-2-xxl{
+    font-size: 4.6rem;
+  }
+}
+
+@media (max-width:860px){
+  .font-1-xl{
+   font-size: 1.8rem;
+  }
+}
+
+@media (max-width:600px){
+  .font-1-xxl{
+    font-size: 2rem;
+  }
+   .font-2-xl{
+    font-size: 1rem;
+  }
+  .font-2-xl-b{
+    font-size: 0.9rem;
+  }
+  .font-2-x{
+    font-size: 0.9rem;
+  }
+  .font-2-l{
+    font-size: 0.75rem;
+  }
+}
