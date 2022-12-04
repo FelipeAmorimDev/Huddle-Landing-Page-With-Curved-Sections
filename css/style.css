@@ -329,8 +329,8 @@ input[type="submit"] {
 }
 
 /* footer */
-.footer-container-pattern>picture img {
-  width: 100%;
+.footer-container-pattern > picture img {
+  min-width: 100%;
 }
 
 .footer-container-bg {
