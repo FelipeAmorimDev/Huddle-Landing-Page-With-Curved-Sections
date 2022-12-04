@@ -68,11 +68,11 @@ input[type="submit"] {
 /* Get Started  */
 
 .get-started {
-  display: grid;
+  /* display: grid; */
   max-width: 1017px;
   margin: 0 auto;
   padding: 0px 16px;
-  gap: 120px;
+  /* gap: 120px; */
 
 }
 
@@ -94,13 +94,19 @@ input[type="submit"] {
   place-self: center;
 }
 
+.get-started__picture img{
+  margin: 120px 0px;
+}
+
 .get-started__card-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 880px;
-  position: relative;
+  /* position: relative;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
+  margin: 0 auto;
   margin-bottom: 133px;
 }
 
