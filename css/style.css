@@ -330,7 +330,12 @@ input[type="submit"] {
 
 /* footer */
 .footer-container-pattern > picture img {
-  min-width: 100%;
+  width: 100%;
+
+}
+.footer-container-pattern > picture {
+  position: relative;
+  top: 4px;
 }
 
 .footer-container-bg {
