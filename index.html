@@ -50,7 +50,10 @@
     </section>
 
     <section class="grow-together-pattern" aria-labelledby="grow-title">
-      <img src="./images/bg-section-top-desktop-1.svg" alt="" aria-hidden="true">
+      <picture>
+        <source media="(min-width: 600px)" srcset="./images/bg-section-top-desktop-1.svg">
+        <img src="./images/bg-section-top-mobile-1.svg" alt="" aria-hidden="true">
+      </picture>
       <div class="grow-together-bg">
         <div class="grow-together">
           <div class="grow-together__description">
@@ -64,7 +67,10 @@
           </picture>
         </div>
       </div>
-      <img src="./images/bg-section-bottom-desktop-1.svg" alt="">
+      <picture>
+        <source media="(min-width: 600px)" srcset="./images/bg-section-bottom-desktop-1.svg">
+        <img src="./images/bg-section-bottom-mobile-1.svg" alt="" aria-hidden="true">
+      </picture>
     </section>
 
     <section class="flow-conversation" aria-labelledby="flow-title">
@@ -80,7 +86,10 @@
     </section>
 
     <section class="your-users-pattern" aria-labelledby="yourusers-title">
-      <img src="./images/bg-section-top-desktop-2.svg" alt="" aria-hidden="true">
+      <picture>
+        <source media="(min-width: 600px)" srcset="./images/bg-section-top-desktop-2.svg">
+        <img src="./images/bg-section-top-mobile-2.svg" alt="" aria-hidden="true">
+      </picture>
       <div class="your-users-bg">
         <div class="your-users">
           <div class="your-users__description">
@@ -94,7 +103,10 @@
           </picture>
         </div>
       </div>
-      <img src="./images/bg-section-bottom-desktop-2.svg" alt="" aria-hidden="true">
+      <picture>
+        <source media="(min-width: 600px)" srcset="./images/bg-section-bottom-desktop-2.svg">
+        <img src="./images/bg-section-bottom-mobile-2.svg" alt="" aria-hidden="true">
+      </picture>
     </section>
 
     <section class="join-comunity" aria-labelledby="joinarea-title">
@@ -106,7 +118,10 @@
   </main>
 
   <footer class="footer-container-pattern">
-    <img src="./images/bg-footer-top-desktop.svg" alt="" aria-hidden="true">
+    <picture>
+      <source media="(min-width: 600px)" srcset="./images/bg-footer-top-desktop.svg">
+      <img src="./images/bg-footer-top-mobile.svg" alt="" aria-hidden="true">
+    </picture>
     <div class="footer-container-bg">
       <div class="footer-container">
         <div class="footer-container__description">
@@ -154,7 +169,7 @@
           <form action="">
             <div class="footer-container__input-content">
               <input type="email" name="email" id="email">
-              <span class="input-content__error-msg font-2-s-e cor-p3">Check your email please</span>
+              <span class="input-content__error-msg font-2-s-e cor-p3"></span>
             </div>
             <input type="submit" class="botao__footer font-2-l-b cor-2" value="Subscribe">
           </form>
@@ -163,6 +178,8 @@
     </div>
 
   </footer>
+
+  <script src="./script/app.js"></script>
 </body>
 
 </html>
